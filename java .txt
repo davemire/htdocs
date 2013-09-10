@@ -1,0 +1,26 @@
+
+
+    <script type="text/javascript">
+    function validateForm()
+    {
+	
+    var a=document.forms["form1"]["username"].value;
+    var b=document.forms["form1"]["password"].value;
+
+    if ((a==null || a=="") && (b==null || b==""))
+    {
+    alert("All Field must be filled out");
+    return false;
+    }
+    if (a==null || a=="")
+    {
+    alert("Username must be filled out");
+    return false;
+    }
+    if (b==null || b=="")
+    {
+    alert("Password must be filled out");
+    return false;
+    }
+    }
+    </script>
