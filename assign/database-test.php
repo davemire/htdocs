@@ -1,8 +1,8 @@
 <?php
 
 $mysql_host = "localhost"; // Host name
-$mysql_database = "assign"; // Database name
-$mysql_user = "root"; // Mysql username
+$mysql_database = ""; // Database name
+$mysql_user = ""; // Mysql username
 $mysql_password = ""; // Mysql password
 
 // Connect to server and select databse.
